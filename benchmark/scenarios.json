@@ -1,0 +1,29 @@
+[
+  {
+    "id": "SCENARIO-01",
+    "name": "Pump-07 Post-Cooling Vibration Persistence",
+    "asset_id": "PUMP-07",
+    "telemetry": {"temp_c": 78.2, "vibration_mms": 3.8, "pressure_bar": 4.2},
+    "failed_past_action": "COOLANT_FLOW_BOOST",
+    "expected_action": "BEARING_INSPECTION_AND_REPLACEMENT",
+    "required_evidence": ["IMG_20260926_0914.png", "ACT-881", "EVT-2025-1104", "POL-SOP-PUMP07-SEC4.2"]
+  },
+  {
+    "id": "SCENARIO-02",
+    "name": "Turbine-03 Transient Thermal Spike",
+    "asset_id": "TURBINE-03",
+    "telemetry": {"temp_c": 85.0, "vibration_mms": 1.1, "pressure_bar": 5.0},
+    "failed_past_action": "EMERGENCY_SHUTDOWN",
+    "expected_action": "MONITOR_AND_WAIT",
+    "required_evidence": ["ACT-412", "POL-SOP-TURBINE03-SEC2.1"]
+  },
+  {
+    "id": "SCENARIO-03",
+    "name": "Compressor-12 Valve Pressure Oscillations",
+    "asset_id": "COMPRESSOR-12",
+    "telemetry": {"temp_c": 65.0, "vibration_mms": 2.0, "pressure_bar": 8.5},
+    "failed_past_action": "VALVE_RECALIBRATION",
+    "expected_action": "REPLACE_DISCHARGE_VALVE_SEAL",
+    "required_evidence": ["IMG_VALVE_992.png", "POL-SOP-COMP12-SEC3.0"]
+  }
+]
