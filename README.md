@@ -92,7 +92,7 @@ During the 24-hour MAHE HackSprint, we deliver a 100% functional vertical slice 
 ### Installation
 ```bash
 # Clone the repository
-git clone GITHUB_REPO_URL=TO_BE_CREATED
+git clone https://github.com/tanish0320/Chronos_Gemini
 cd mahe
 
 # Create virtual environment

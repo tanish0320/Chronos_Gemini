@@ -5,7 +5,7 @@
 **Track**: PS42 — Multimodal AI Systems using Google Gemini & Google Cloud  
 **Team Name**: GGs  
 **Author & Team Lead**: Tanish Renuka Suragihalli  
-**GitHub Repository**: `GITHUB_REPO_URL=TO_BE_CREATED`  
+**GitHub Repository**: https://github.com/tanish0320/Chronos_Gemini  
 
 ---
 
